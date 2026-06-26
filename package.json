@@ -1,0 +1,35 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ibrahim-Alattar/weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ibrahim-Alattar/weather-app/issues"
+  },
+  "homepage": "https://github.com/Ibrahim-Alattar/weather-app#readme",
+  "dependencies": {
+    "@meteocons/svg": "^0.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "globals": "^17.7.0",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^5.108.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.5"
+  }
+}
