@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+</head>
+
+<body>
+  <header>
+    <input type="text">
+    <div class="btns-container">
+      <button class="search">Search</button>
+      <button class="switch"></button>
+    </div>
+  </header>
+  <main>
+    <div class="weather-card">
+      <div class="icon"></div>
+      <h2 class="location">📍 Location <span id="location"></span></h2>
+      <div class="data">
+        <div class="condition">🌤️ Condition <span id="condition"></span></div>
+        <div class="temp">🌡️ Temperature <span id="temp"></span></div>
+        <div class="humidity">💧 Humidity <span id="humidity"></span></div>
+        <div class="wind-speed">💨 Wind Speed <span id="windSpeed"></span></div>
+      </div>
+    </div>
+  </main>
+
+  <section class="days-container"></section>
+  <div class="loading-box">
+    <div class="loading-dot"></div>
+    <div class="loading-dot"></div>
+    <div class="loading-dot"></div>
+    <div class="loading-dot"></div>
+  </div>
+  <div class="overlay"></div>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
